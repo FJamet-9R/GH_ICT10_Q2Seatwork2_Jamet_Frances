@@ -1,0 +1,27 @@
+body{
+    
+	animation: fadeInAnimation ease 3s;
+	            animation-iteration-count: 1;
+	            animation-fill-mode: forwards;
+	    } 
+	    @keyframes fadeInAnimation{
+	            0% {
+	                opacity: 0;
+	            }
+
+	            100% {
+	                opacity: 1;
+                }
+            }
+
+ #container{
+    margin-top: 50px;
+    margin-left: 450px;
+    width: 650px;
+    border: thin solid #51321b;
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+    border-radius: 30px
+    
+}
