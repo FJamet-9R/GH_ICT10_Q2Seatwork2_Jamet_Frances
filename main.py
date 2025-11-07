@@ -16,8 +16,15 @@ def calculate(e):
     ICT = float(document.getElementById('InputICT').value)
     Cal = (Math*5 + Science*5 + English*5 + Filipino*3 + Social_Studies*3 + ICT*2) / total_units
     display(f"Student Name: {FName} {LName}", target="result")
+    display(f"Math: {Math}", target="result")
+    display(f"Science: {Science}", target="result")
+    display(f"English: {English}", target="result")
+    display(f"Filipino: {Filipino}", target="result")
+    display(f"Social Studies: {Social_Studies}", target="result")
+    display(f"ICT: {ICT}", target="result")
     display(f"Your General Average is: {Cal}", target="result")
  
 
  
+
 
