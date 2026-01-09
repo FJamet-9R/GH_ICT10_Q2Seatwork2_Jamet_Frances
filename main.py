@@ -25,7 +25,7 @@ def calculate(e):
     display(f"Your General Average is: {Cal}", target="result")
 
 
-    if Cal < 74:
+    if Cal < 74: # checks if you failed or passed
         display(f'you got a FAILING grade', target="result")
     else:
         display(f'you got a PASSING grade', target='result')
@@ -34,6 +34,7 @@ def calculate(e):
  
 
  
+
 
 
 
