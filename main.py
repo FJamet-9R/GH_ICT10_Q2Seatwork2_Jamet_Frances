@@ -23,8 +23,17 @@ def calculate(e):
     display(f"Social Studies: {Social_Studies}", target="result")
     display(f"ICT: {ICT}", target="result")
     display(f"Your General Average is: {Cal}", target="result")
+
+
+    if Cal < 74:
+        display(f'you got a FAILING grade', target="result")
+    else:
+        display(f'you got a PASSING grade', target='result')
+    
+ 
  
 
  
+
 
 
